@@ -175,3 +175,82 @@ font-size: 20px;
     margin-top: 30px;
     margin-bottom: 50px;
 }
+
+.resume{
+    display: flex;
+    gap: 71px;
+}
+.resume-heading-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+}
+.experience-name{
+    font-weight: bold;
+        font-size: 25px;
+        color: #474747;
+        margin-bottom: 0px;
+}
+
+.experience-loc{
+    font-weight: 600;
+        font-size: 20px;
+        color:#757575;
+        fill: rgba(117, 117, 117, 1);
+        margin-top: 10px;
+}
+
+.experience-descriotion{
+    font-weight: normal;
+    font-size: 16px;
+    color: #474747;
+}
+.resume-heading hr{
+    color: #D1D1D1;
+list-style: 1;
+}
+.align-btn{
+   text-align: center;
+   margin-top: 50px;
+}
+
+
+.footer-heading{
+    font-weight: bold;
+    font-size: 35px;
+}
+footer p{
+    font-size: 16px;
+    color: #474747;
+    max-width: 562px;
+
+ 
+}
+footer img{
+    margin-right: 24px;
+}
+footer{
+    display: flex;
+margin-top: 113px;  
+padding: 130px 130px;
+gap: 117px;  
+
+}
+.footer-col{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+display: block;
+height: 64px;
+width: 100%;
+
+border-radius: 5px;
+padding: 10px 20px;
+margin-bottom: 24px;
+border: none;
+}
+footer textarea{
+   width : 461px;
+    height: 180px;
+}
+
